@@ -1,24 +1,3 @@
-# default: &default
-#   adapter: postgresql
-#   encoding: unicode
-#   username: deploy
-#   password: password123456789
-#   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-#   timeout: 5000
-#
-# development:
-#   <<: *default
-#   database: hadhratabassiya_development
-#
-# test:
-#   <<: *default
-#   database: hadhratabassiya
-#
-# production:
-#   <<: *default
-#   database: hadhratabassiya
-#
-
 default: &default
   adapter: postgresql
   encoding: unicode
@@ -33,11 +12,6 @@ test:
   <<: *default
   database: hadhratabassiya_development
     # db/test.sqlite3
-
-# production:
-#   <<: *default
-#   database: hadhratabassiya
-    # db/production.sqlite3
 
 production:
   <<: *default
