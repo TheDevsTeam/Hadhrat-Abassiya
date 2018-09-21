@@ -8,15 +8,15 @@
 #
 # development:
 #   <<: *default
-#   database: thenewspanel_development
+#   database: hadhratabassiya_development
 #
 # test:
 #   <<: *default
-#   database: thenewspanel
+#   database: hadhratabassiya
 #
 # production:
 #   <<: *default
-#   database: thenewspanel
+#   database: hadhratabassiya
 #
 
 default: &default
@@ -27,16 +27,16 @@ default: &default
 
 development:
   <<: *default
-  database: thenewspanel_development
+  database: hadhratabassiya_development
 
 test:
   <<: *default
-  database: thenewspanel_development
+  database: hadhratabassiya_development
     # db/test.sqlite3
 
 # production:
 #   <<: *default
-#   database: thenewspanel
+#   database: hadhratabassiya
     # db/production.sqlite3
 
 production:
@@ -44,7 +44,7 @@ production:
   host: localhost
   adapter: postgresql
   encoding: utf8
-  database: thenewspanel_production
+  database: hadhratabassiya_production
   pool: 5
   username: <%= ENV['deploy'] %>
   password: <%= ENV['password123456789'] %>

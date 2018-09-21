@@ -12,14 +12,14 @@ default: &default
 
 development:
   <<: *default
-  database: thenewspanel
+  database: hadhratabassiya
 
 test:
   <<: *default
-  database: thenewspanel
+  database: hadhratabassiya
     # db/test.sqlite3
 
 production:
   <<: *default
-  database: thenewspanel
+  database: hadhratabassiya
     # db/production.sqlite3
