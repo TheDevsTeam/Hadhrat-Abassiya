@@ -1,12 +1,12 @@
 development:
-  database: hadhratabassiya
+  database: hadhratabassiya_development
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
 test:
-  database: hadhratabassiya
+  database: hadhratabassiya_development
 
 production:
   host: localhost
