@@ -74,7 +74,6 @@ group :development do
   gem 'capistrano', '~> 3.11'
   gem 'capistrano-rails', '~> 1.4'
   gem 'capistrano-rbenv', '~> 2.1'
-  # gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.4'
 end
 
 group :production do
