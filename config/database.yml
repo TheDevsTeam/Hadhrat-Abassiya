@@ -12,7 +12,7 @@ production:
   host: localhost
   adapter: postgresql
   encoding: utf8
-  database: hadhratabassiya_production
+  database: hadhratabassiya_development
   pool: 5
   username: <%= ENV['deploy'] %>
   password: <%= ENV['boomboom0'] %>
