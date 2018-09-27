@@ -1,50 +1,23 @@
 development:
+  database: hadhratabassiya_development
+  host: localhost
   adapter: postgresql
   encoding: unicode
-  database: hadhratabassiya_development
-  pool: 5
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
   username: deploy
-  password:
-  host: localhost
+  password: boomboom0
+
 
 test:
-  adapter: postgresql
-  encoding: unicode
-  database: hadhratabassiya_test
-  pool: 5
-  username: deploy
-  password:
-  host: localhost
+  database: hadhratabassiya
+
 
 production:
+  host: localhost
   adapter: postgresql
-  encoding: unicode
+  encoding: utf8
   database: hadhratabassiya_production
   pool: 5
-  username: deploy
-  password:
-
-
-# development:
-#   database: hadhratabassiya_development
-#   host: localhost
-#   adapter: postgresql
-#   encoding: unicode
-#   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-#   timeout: 5000
-#   username: deploy
-#   password: boomboom0
-
-
-# test:
-#   database: hadhratabassiya
-
-
-# production:
-#   host: localhost
-#   adapter: postgresql
-#   encoding: utf8
-#   database: hadhratabassiya_production
-#   pool: 5
-#   username: <%= ENV['deploy'] %>
-#   password: <%= ENV['boomboom0'] %>
+  username: <%= ENV['deploy'] %>
+  password: <%= ENV['boomboom0'] %>
