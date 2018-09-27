@@ -1,12 +1,20 @@
-development:
-  adapter: postgresql
-  encoding: unicode
-  database: hadhratabassiya_development
-  pool: 5
-  username: deploy
-  password: boomboom0
-  host: localhost
+default: 
+    adapter: postgresql
+    encoding: utf8
+    pool: 5
+    database: hadhratabassiya
+    username: deploy
+    password: boomboom0
+    host: localhost
 
+development:
+    adapter: postgresql
+    encoding: utf8
+    pool: 5
+    database: hadhratabassiya_development
+    username: deploy
+    password: boomboom0
+    host: localhost
 
 test:
   database: hadhratabassiya
