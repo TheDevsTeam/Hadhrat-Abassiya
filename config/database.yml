@@ -7,7 +7,6 @@ development:
   username: deploy
   password: boomboom0
 
-
 test:
   database: hadhratabassiya
 
