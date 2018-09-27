@@ -1,9 +1,12 @@
 development:
-  database: hadhratabassiya
+  database: hadhratabassiya_development
+  host: localhost
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
+  username: deploy
+  password: boomboom0
 
 
 test:
