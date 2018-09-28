@@ -1,5 +1,5 @@
 development:
-  database: hadhratabassiya
+  database: hadhratabassiya_development
   host: localhost
   adapter: postgresql
   encoding: unicode
