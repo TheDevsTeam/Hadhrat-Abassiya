@@ -3609,3 +3609,337 @@ Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:21:40 
 Started GET "/assets/welcome.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:21:40 -0400
 Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:21:40 -0400
 Started GET "/assets/popper.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:21:40 -0400
+Started GET "/welcome/home.%23%3CPost::ActiveRecord_Relation:0x00007fc2736d3a20%3E" for 127.0.0.1 at 2018-09-27 22:28:41 -0400
+  [1m[35m (24.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#home as 
+  Rendering welcome/home.html.erb within layouts/author
+  Rendered welcome/home.html.erb within layouts/author (1.7ms)
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navbar.html.erb (28.2ms)
+Completed 200 OK in 1324ms (Views: 1235.8ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/jquery3.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/popper.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/bootstrap/alert.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/bootstrap/util.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/bootstrap/popover.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/bootstrap/modal.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/bootstrap/button.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/bootstrap/tab.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/social-share-button.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/ckeditor/ckeditor.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/articles.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/ckeditor/init.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/google_analytics.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/welcome.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:28:43 -0400
+Started GET "/welcome/home.%23%3CPost::ActiveRecord_Relation:0x00007fc2736d3a20%3E" for 127.0.0.1 at 2018-09-27 22:29:09 -0400
+Processing by WelcomeController#home as 
+  Rendering welcome/home.html.erb within layouts/author
+  Rendered welcome/home.html.erb within layouts/author (0.5ms)
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navbar.html.erb (6.5ms)
+Completed 200 OK in 1041ms (Views: 1007.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/popper.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/bootstrap/util.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/bootstrap/alert.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/bootstrap/popover.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/bootstrap/button.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/bootstrap/modal.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/bootstrap/tab.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/ckeditor/init.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/ckeditor/ckeditor.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/social-share-button.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/google_analytics.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/articles.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/welcome.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:10 -0400
+Started GET "/assets/jquery3.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:11 -0400
+Started GET "/welcome/home.%23%3CPost::ActiveRecord_Relation:0x00007fc2736d3a20%3E" for 127.0.0.1 at 2018-09-27 22:29:41 -0400
+Processing by WelcomeController#home as 
+  Rendering welcome/home.html.erb within layouts/author
+  Rendered welcome/home.html.erb within layouts/author (0.5ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navbar.html.erb (15.2ms)
+Completed 200 OK in 299ms (Views: 257.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery3.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:41 -0400
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:41 -0400
+Started GET "/assets/bootstrap/util.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:41 -0400
+Started GET "/assets/popper.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:41 -0400
+Started GET "/assets/bootstrap/alert.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:41 -0400
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:41 -0400
+Started GET "/assets/bootstrap/popover.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:41 -0400
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:41 -0400
+Started GET "/assets/bootstrap/modal.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:41 -0400
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:41 -0400
+Started GET "/assets/bootstrap/tab.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:42 -0400
+Started GET "/assets/social-share-button.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:42 -0400
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-09-27 22:29:42 -0400
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:42 -0400
+Started GET "/assets/bootstrap/button.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:42 -0400
+Started GET "/assets/ckeditor/init.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:42 -0400
+Started GET "/assets/ckeditor/ckeditor.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:42 -0400
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:42 -0400
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:42 -0400
+Started GET "/assets/articles.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:42 -0400
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:42 -0400
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:42 -0400
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:42 -0400
+Started GET "/assets/welcome.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:42 -0400
+Started GET "/assets/google_analytics.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:42 -0400
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:42 -0400
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:29:42 -0400
+Started GET "/welcome/home.%23%3CPost::ActiveRecord_Relation:0x00007fc2736d3a20%3E" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Processing by WelcomeController#home as 
+  Rendering welcome/home.html.erb within layouts/author
+  Rendered welcome/home.html.erb within layouts/author (1.8ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navbar.html.erb (5.6ms)
+Completed 200 OK in 196ms (Views: 176.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery3.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/popper.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/bootstrap/alert.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/bootstrap/popover.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/bootstrap/button.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/bootstrap/modal.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/bootstrap/tab.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/social-share-button.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/ckeditor/init.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/ckeditor/ckeditor.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/articles.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/welcome.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/google_analytics.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/assets/bootstrap/util.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:01 -0400
+Started GET "/welcome/home.%23%3CPost::ActiveRecord_Relation:0x00007fc2736d3a20%3E" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Processing by WelcomeController#home as 
+  Rendering welcome/home.html.erb within layouts/author
+  Rendered welcome/home.html.erb within layouts/author (0.7ms)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navbar.html.erb (6.3ms)
+Completed 200 OK in 196ms (Views: 177.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/jquery3.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/bootstrap/util.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/popper.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/bootstrap/alert.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/bootstrap/popover.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/bootstrap/button.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/bootstrap/modal.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/bootstrap/tab.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/social-share-button.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/ckeditor/init.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/ckeditor/ckeditor.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/google_analytics.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/articles.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/welcome.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:57 -0400
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:30:58 -0400
+Started GET "/welcome/home.%23%3CPost::ActiveRecord_Relation:0x00007fc2736d3a20%3E" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Processing by WelcomeController#home as 
+  Rendering welcome/home.html.erb within layouts/author
+  Rendered welcome/home.html.erb within layouts/author (0.5ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navbar.html.erb (5.6ms)
+Completed 200 OK in 214ms (Views: 194.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery3.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/bootstrap/util.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/bootstrap/alert.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/bootstrap/popover.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/bootstrap/button.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/bootstrap/modal.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/bootstrap/tab.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/ckeditor/init.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/social-share-button.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/ckeditor/ckeditor.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/articles.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/google_analytics.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/welcome.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:05 -0400
+Started GET "/assets/popper.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:06 -0400
+Started GET "/welcome/home.%23%3CPost::ActiveRecord_Relation:0x00007fc2736d3a20%3E" for 127.0.0.1 at 2018-09-27 22:31:14 -0400
+Processing by WelcomeController#home as 
+  Rendering welcome/home.html.erb within layouts/author
+  Rendered welcome/home.html.erb within layouts/author (0.5ms)
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navbar.html.erb (16.9ms)
+Completed 200 OK in 224ms (Views: 201.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/jquery3.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/bootstrap/util.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/popper.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/bootstrap/alert.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/bootstrap/button.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/bootstrap/popover.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/bootstrap/modal.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/bootstrap/tab.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/social-share-button.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/ckeditor/init.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/ckeditor/ckeditor.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/articles.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/google_analytics.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/welcome.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:15 -0400
+Started GET "/welcome/home.%23%3CPost::ActiveRecord_Relation:0x00007fc2736d3a20%3E" for 127.0.0.1 at 2018-09-27 22:31:44 -0400
+Processing by WelcomeController#home as 
+  Rendering welcome/home.html.erb within layouts/author
+  Rendered welcome/home.html.erb within layouts/author (0.6ms)
+  [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navbar.html.erb (10.7ms)
+Completed 200 OK in 202ms (Views: 182.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery3.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:44 -0400
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-09-27 22:31:44 -0400
+Started GET "/assets/popper.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:44 -0400
+Started GET "/assets/bootstrap/util.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:44 -0400
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:44 -0400
+Started GET "/assets/bootstrap/alert.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:44 -0400
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:44 -0400
+Started GET "/assets/bootstrap/popover.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:44 -0400
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:44 -0400
+Started GET "/assets/bootstrap/button.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:44 -0400
+Started GET "/assets/bootstrap/modal.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:45 -0400
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:45 -0400
+Started GET "/assets/bootstrap/tab.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:45 -0400
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:45 -0400
+Started GET "/assets/social-share-button.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:45 -0400
+Started GET "/assets/ckeditor/init.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:45 -0400
+Started GET "/assets/ckeditor/ckeditor.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:45 -0400
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:45 -0400
+Started GET "/assets/articles.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:45 -0400
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:45 -0400
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:45 -0400
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:45 -0400
+Started GET "/assets/google_analytics.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:45 -0400
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:45 -0400
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:45 -0400
+Started GET "/assets/welcome.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:45 -0400
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:31:45 -0400
+Started GET "/welcome/home.%23%3CPost::ActiveRecord_Relation:0x00007fc2736d3a20%3E" for 127.0.0.1 at 2018-09-27 22:32:58 -0400
+Processing by WelcomeController#home as 
+  Rendering welcome/home.html.erb within layouts/author
+  Rendered welcome/home.html.erb within layouts/author (0.5ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navbar.html.erb (10.0ms)
+Completed 200 OK in 636ms (Views: 601.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery3.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:58 -0400
+Started GET "/assets/popper.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:58 -0400
+Started GET "/assets/bootstrap/util.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:58 -0400
+Started GET "/assets/bootstrap/scrollspy.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:58 -0400
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2018-09-27 22:32:58 -0400
+Started GET "/assets/bootstrap/tooltip.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:58 -0400
+Started GET "/assets/bootstrap/alert.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:58 -0400
+Started GET "/assets/bootstrap/popover.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400
+Started GET "/assets/bootstrap/dropdown.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400
+Started GET "/assets/bootstrap/button.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400
+Started GET "/assets/bootstrap/modal.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400
+Started GET "/assets/bootstrap/tab.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400
+Started GET "/assets/bootstrap-sprockets.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400
+Started GET "/assets/social-share-button.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400
+Started GET "/assets/ckeditor/init.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400
+Started GET "/assets/bootstrap/carousel.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400
+Started GET "/assets/ckeditor/ckeditor.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400
+Started GET "/assets/articles.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400
+Started GET "/assets/google_analytics.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400
+Started GET "/assets/welcome.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400
+Started GET "/assets/bootstrap/collapse.self.js?body=1" for 127.0.0.1 at 2018-09-27 22:32:59 -0400

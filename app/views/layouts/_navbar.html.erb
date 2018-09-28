@@ -107,14 +107,14 @@ Central online place where  -->
         <% end %>
       </li>
       <li class="nav-item" >
-        <%= link_to 'Recent News', root_path, class: "nav-link #{yield(:news_active)}" %>
+        <%= link_to 'Posts Recent', root_path, class: "nav-link #{yield(:news_active)}" %>
       </li>
-     <li class="nav-item">
+    <!--  <li class="nav-item">
         <%= link_to 'About', about_path, class: "nav-link #{yield(:about_active)}" %>
-      </li>
-     <li class="nav-item">
+      </li> -->
+ <!--     <li class="nav-item">
         <%= link_to 'Log In', author_session_path, class: "nav-link #{yield(:about_active)}" %>
-      </li>
+      </li> -->
       <li class="nav-item">
         <% Category.all.each do |category| %>
         <li class="nav-item">
@@ -146,10 +146,7 @@ Central online place where  -->
 
       </li>
       <%end%>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+ <!-- f -->
     </ul>
   </div>
 </nav>
