@@ -1,4 +1,6 @@
 
+  <%= audio_tag "http://quraan.us:9850/;", id: "sound", class: "audio-to-play", autoplay: true %>
+
 <div class="collapse" id="exCollapsingNavbar">
   <div class="collapse-bg p-a-1">
     <div class="card">
@@ -103,7 +105,7 @@ Central online place where  -->
     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
       <li class="nav-item" >
         <%= link_to welcome_home_path(@posts) do %>
-        <i class="fa fa-home fa-2x" style="" aria-hidden="true"></i>
+        <i class="fa fa-home fa-2x" style=" color: white;" aria-hidden="true"></i>
         <% end %>
       </li>
       <li class="nav-item" >

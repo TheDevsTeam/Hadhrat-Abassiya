@@ -1,163 +1,89 @@
 // ---------------------------------MAIN PAGE CSS---------------------------------
 
-
-
-
-/*
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-General Configurations
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-*/
-section{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 100px;
+.css-slideshow{
+  position: relative;
+  max-width: 900px;
+  height: 600px;
+  margin: 5em auto .5em auto;
+}
+.css-slideshow figure{
+  margin: 0;
+  max-width: 900px;
+  height: 600px;
+  background: #000;
+  position: absolute;
+}
+.css-slideshow img{
+  box-shadow: 0 0 2px #666;
+}
+.css-slideshow figcaption{
+  position: absolute;
+  top: 0;
+  color: #fff;
+  background: rgba(0,0,0, .3);
+  font-size: .8em;
+  padding: 8px 12px;
+  opacity: 0;
+  transition: opacity .5s;
+}
+.css-slideshow:hover figure figcaption{
+  transition: opacity .5s;
+  opacity: 1;
+}
+.css-slideshow-attr{
+  max-width: 495px;
+  text-align: right;
+  font-size: .7em;
+  font-style: italic;
+  margin:0 auto;
+}
+.css-slideshow-attr a{
+  color: #666;
+}
+.css-slideshow figure{
+  opacity:0;
+}
+figure:nth-child(1) {
+  animation: xfade 48s 42s infinite;
+}
+figure:nth-child(2) {
+  animation: xfade 48s 36s infinite;
+}
+figure:nth-child(3) {
+  animation: xfade 48s 30s infinite;
+}
+figure:nth-child(4) {
+  animation: xfade 48s 24s infinite;
+}
+figure:nth-child(5) {
+  animation: xfade 48s 18s infinite;
+}
+figure:nth-child(6) {
+  animation: xfade 48s 12s infinite;
+}
+figure:nth-child(7) {
+  animation: xfade 48s 6s infinite;
+}
+figure:nth-child(8) {
+  animation: xfade 48s 0s infinite;
 }
 
-/*
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-Header Configurations
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-*/
-
-header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align:center;
-        -ms-flex-align:center;
-            align-items:center;
-    padding: 35px 100px 0;
-    -webkit-animation: 1s fadein 0.5s forwards;
-            animation: 1s fadein 0.5s forwards;
-    opacity: 0.5;
-    color: white;
-}
-@-webkit-keyframes fadein{
-    100%{
-        opacity: 1;
-    }
-}
-@keyframes fadein{
-    100%{
-        opacity: 1;
-    }
-}
-
-header h2{
-    font-family: "Quicksand, sans-serif";
-    color: white;
-}
-
-header nav{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-right: -15px;
-}
-header nav li{
-    margin: 0 15px;
-    color: white;
-}
-@media (max-width: 1000px){
-  header{
-    padding: 20px 50px;
+@keyframes xfade{
+  0%{
+    opacity: 1;
   }
-}
-
-
-@media (max-width: 700px){
-  header{
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;   
+  10.5% {
+    opacity: 1;
   }
-
-  header h2{
-    margin-bottom: 15px;
+  12.5%{
+    opacity: 0;
   }
-}
-
-
-
-/*
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-Cover and Image Animation configuration
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-*/
-.hero{
-    position: relative;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-align: center;
-    min-height: 100vh;
-    color: white;
-}
-.hero .background-image{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    z-index: -1;
-    background-color: #80a3db;
-    -webkit-animation: 15s change 1s forwards;
-            animation: 15s change 1s forwards;
-    -webkit-animation-iteration-count:infinite;
-            animation-iteration-count:infinite;
-}
-
-@keyframes change{
-    0%{
-    background-image: url(https://wallpaper-house.com/data/out/7/wallpaper2you_139824.jpg);
-    }
-    25%{
-       background-image: url(http://www.hdnicewallpapers.com/Walls/Big/Mountain/Wonderful_Nature_Look_of_Mountain_HD_Photos.jpg);
-    }
-    50%{
-        background-image: url(https://wallpapersite.com/images/wallpapers/dark-mountains-2560x1440-stars-hd-6406.jpg);
-        
-    }
-    75%{
-        background-image: url(https://images7.alphacoders.com/290/thumb-1920-290072.jpg);
-        
-    }
-    100%{
-        background-image: url(https://wallpapercave.com/wp/R6ZWbAb.jpg);
-        
-    }
-}
-.hero h1{
-    font: bold 60px "Open Sans", sans-serif;
-    margin-bottom: 40px;
-    color: white;
-}
-.hero h3{
-    font: normal 28px "Open Sans", sans-serif;
-    margin-bottom: 40px;
-    color: white;
-}
-.hero a.btn{
-    padding: 20px 46px;
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .hero-content-area{
     opacity: 0;
@@ -165,20 +91,6 @@ Cover and Image Animation configuration
     -webkit-animation: 1s slidefade 1s forwards;
             animation: 1s slidefade 1s forwards;
 }
-@-webkit-keyframes slidefade{
-    100%{
-        opacity: 1;
-        margin: 0;
-    }
-}
-@keyframes slidefade{
-    100%{
-        opacity: 1;
-        margin: 0;
-    }
-}
-
-
 .grid{
     width: 100%;
     display: -webkit-box;
@@ -220,12 +132,6 @@ hr{
 
 }
 
-
-/*
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
-Section Configurations
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-*/
 section h3.title{
     text-transform: capitalize;
     font: bold 32px "Open Sans", sans-serif;
@@ -236,7 +142,7 @@ section h3.title{
 
 .destinations .grid li{
     height: 350px;
-    padding: 20px;
+    padding: 0;
     background-clip: content-box;
     background-size: cover;
     background-position: center;
@@ -253,10 +159,19 @@ section h3.title{
 }
 
 
-
-
-
-
+section{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 100px;
+}
 
 /*---------------------
   Contact Section
@@ -383,10 +298,10 @@ footer p a{
 
 .navbar-brand {
   font-weight: bolder;
-  color: #f4511e !important;
+  color: #1B100F !important;
 }
 a {
-  color: white;
+  color: #222222;
 }
 .posts.index {
   .digg_pagination {
@@ -584,6 +499,7 @@ hr {
 
 @media only screen and (max-width: 991px) {
 
+
   .digg_pagination {
     margin-left: 220px;
     margin-right: 200px;
@@ -605,11 +521,13 @@ hr {
     clear: both;
   }
 }
+/*
+
 body {
   font-family: 'Open Sans', sans-serif;
   padding-top: 10px;
   background-color: #f3f5f6;
-}
+}*/
 
 }
 
@@ -698,175 +616,6 @@ footer p, footer h3 {
 .field {
   // margin-top: 4em;
 }
-/* social media box css*/
-
-.socialCube {
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        // align-items: center;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-  height: 300px;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-          i.fa , i.fab {
-            font-size: 100px;
-            line-height: 200px;
-          }
-
-}
-
-.wrap {
-	-webkit-perspective: 800px;
-	        perspective: 800px;
-	-webkit-perspective-origin: 50% 100px;
-	        perspective-origin: 50% 100px;
-}
-
-.cube div {
-    border: solid 1px #D3D3D3;
-    box-shadow: inset 10px 10px 117px -22px rgba(0, 0, 0, 0.75);
-    height: 200px;
-    position: absolute;
-    text-align: center;
-    width: 200px;
-}
-
-.cube:hover {
-    -webkit-animation-play-state: paused;
-            animation-play-state: paused;
-}
-
-/*Twitter*/
-.twitter {
-    -webkit-transform: translateZ(100px);
-            transform: translateZ(100px);
-}
-
-.twitter:hover {
-    background-color: rgba(0, 172, 237, .5);
-}
-
-.twitter:hover .fa-twitter {
-    color: white;
-}
-
-.fa-twitter {
-    color: #00aced;
-    font-size: 1.6em;
-}
-
-/*Facebook*/
-.facebook {
-    -webkit-transform: translateZ(-100px) rotateY(180deg);
-            transform: translateZ(-100px) rotateY(180deg);
-    -webkit-transform-origin: top center;
-            transform-origin: top center;
-}
-
-.facebook:hover {
-    background-color: rgba(59, 89, 152, 0.5);
-}
-
-.facebook:hover .fa-facebook {
-    color: white;
-}
-
-.fa-facebook-f , .fa-facebook {
-    color: #3b5998;
-}
-.fa-comments {
-    color: #f2f6fe;
-}
-
-/*Linkedin*/
-.linkedin {
-  -webkit-transform: rotateY(-270deg) translateX(100px);
-  transform: rotateY(-270deg) translateX(100px);
-  -webkit-transform-origin: top right;
-  transform-origin: top right;
-}
-
-.linkedin:hover {
-  background-color: rgba(0, 119, 181, 0.5);
-}
-
-.linkedin:hover .fa-linkedin {
-  color: white;
-}
-
-.fa-linkedin {
-  color: #0077b5;
-}
-
-/*Google Plus*/
-.google-plus {
-    -webkit-transform: rotateY(270deg) translateX(-100px);
-            transform: rotateY(270deg) translateX(-100px);
-    -webkit-transform-origin: center left;
-            transform-origin: center left;
-}
-
-.google-plus:hover {
-    background-color: rgba(211, 72, 54, 0.5);
-}
-
-.google-plus:hover .fa-google-plus {
-    color: white;
-}
-
-.fa-google-plus {
-    color: #d34836;
-}
-
-/*Bottom unfilled*/
-.bottom {
-    -webkit-transform: rotateX(90deg) translateY(100px);
-            transform: rotateX(90deg) translateY(100px);
-    -webkit-transform-origin: bottom center;
-            transform-origin: bottom center;
-}
-
-/*Top Unfilled*/
-.top {
-    -webkit-transform: rotateX(-90deg) translateY(-100px);
-            transform: rotateX(-90deg) translateY(-100px);
-    -webkit-transform-origin: top center;
-            transform-origin: top center;
-}
-
-/*Y rotation on cube div*/
-@-webkit-keyframes spin {
-    0% {
-        -webkit-transform: rotateY(0);
-                transform: rotateY(0)
-    }
-    100% {
-        -webkit-transform: rotateY(360deg);
-                transform: rotateY(360deg)
-    }
-}
-@keyframes spin {
-    0% {
-        -webkit-transform: rotateY(0);
-                transform: rotateY(0)
-    }
-    100% {
-        -webkit-transform: rotateY(360deg);
-                transform: rotateY(360deg)
-    }
-}
-
-.cube {
-    -webkit-animation: spin 10s infinite linear;
-            animation: spin 10s infinite linear;
-	position: relative;
-    -webkit-transform-style: preserve-3d;
-            transform-style: preserve-3d;
-    width: 200px;
-}
 // ------------------------------END MAIN PAGE CSS---------------------------------
 
 
@@ -900,6 +649,9 @@ h4 {
 }
 .bg-grey {
     background-color: #f6f6f6;
+}
+.bg-dark {
+    background-color: #a74724 !important;
 }
 .logo-small {
     color: #f4511e;
