@@ -223,7 +223,10 @@ section{
 
 }
 
-
+.slide {
+  width: 800px; 
+  margin: 0 auto
+}
 
 
 /*-------------
@@ -285,16 +288,6 @@ footer p a{
   }
 
 }
-
-
-
-
-
-
-
-
-
-
 
 .navbar-brand {
   font-weight: bolder;
@@ -638,12 +631,52 @@ h4 {
     line-height: 1.375em;
     color: #303030;
     font-weight: 400;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
 }
   .container {
 /*     max-width: 1140px; */
   }
-  
+
+  /*home page accordion css */
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    overflow: scroll;
+    height: 400px;
+    width: auto
+}
+
+.nav-tabs {
+  /*display:none;*/
+}
+/*
+@media(min-width:768px) {
+  .nav-tabs {
+    display: flex;
+  }
+
+  .card {
+    border: none;
+  }
+
+  .card .card-header {
+    display:none;
+  }  
+
+  .card .collapse{
+    display:block;
+  }
+}
+
+@media(max-width:767px){
+  .tab-pane {
+    display: block !important;
+    opacity: 1;
+  }
+}*/
+/*home page accordion css end*/
+
 .jumbotron {
     background-color: #f4511e;
     color: #fff;
@@ -816,11 +849,22 @@ h4 {
       width: 100%;
       margin-bottom: 35px;
   }
+    .slide {
+    width: 460px; 
+    margin: 0 auto
+}
+
+
 }
 @media screen and (max-width: 480px) {
   .logo {
       font-size: 150px;
   }
+  .slide {
+    width: 460px; 
+    margin: 0 auto
+}
+
 }
 // -----------------------------END HOME PAGE CSS--------------------------------------
 

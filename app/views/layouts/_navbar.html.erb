@@ -103,17 +103,17 @@ Central online place where  -->
   </button>
   <div class="collapse navbar-collapse"  id="navbarToggler">
     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-      <li class="nav-item" >
+<!--       <li class="nav-item" >
         <%= link_to welcome_home_path(@posts) do %>
         <i class="fa fa-home fa-2x" style=" color: white;" aria-hidden="true"></i>
         <% end %>
+      </li> -->
+      <li class="nav-item">
+        <%= link_to 'Accueil', welcome_home_path, class: "nav-link #{yield(:about_active)}" %>
       </li>
       <li class="nav-item" >
-        <%= link_to 'Posts Recent', root_path, class: "nav-link #{yield(:news_active)}" %>
+        <%= link_to 'Recents', root_path, class: "nav-link #{yield(:news_active)}" %>
       </li>
-    <!--  <li class="nav-item">
-        <%= link_to 'About', about_path, class: "nav-link #{yield(:about_active)}" %>
-      </li> -->
  <!--     <li class="nav-item">
         <%= link_to 'Log In', author_session_path, class: "nav-link #{yield(:about_active)}" %>
       </li> -->
@@ -123,6 +123,9 @@ Central online place where  -->
           <%= link_to category.name, posts_path(category: category.name), class: "nav-link #{yield(:about_active)}" %>
         </li>
         <% end %>
+      </li>
+      <li class="nav-item">
+        <%= link_to 'Le Khalife', about_path, class: "nav-link #{yield(:about_active)}" %>
       </li>
       <!-- <li class="nav-item">
         <%= link_to 'Projects', travel_path, class: "nav-link #{yield(:travel_active)}" %>
