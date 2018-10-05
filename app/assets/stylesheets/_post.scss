@@ -3481,7 +3481,7 @@ a:hover{
 }
 a, a:focus , a:hover{ 
   text-decoration: none;
-  color: white !important;
+  color: inherit;
 }
  a:hover, .btn{
   outline:none!important;
