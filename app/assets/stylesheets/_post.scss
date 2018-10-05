@@ -533,7 +533,7 @@ body {
     column-count: 4;
   }
   @include media-breakpoint-only(xl) {
-    column-count: 5;
+    column-count: 4;
   }
 }
 
@@ -552,10 +552,6 @@ body {
 }
 }
 
-audio {
-  padding-right: 20px;
-  width: 220px;
-}
 .author-bio {
   background-color: white;
   padding: 15px 45px;
