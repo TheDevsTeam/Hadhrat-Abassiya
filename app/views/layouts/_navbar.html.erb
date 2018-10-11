@@ -63,7 +63,7 @@
         <%= link_to 'Contact', contact_path, class: "nav-link #{yield(:contact_active)}" %>
       </li>
       <li class="nav-item">
-        <%= link_to 'Travel', travel_path, class: "nav-link #{yield(:travel_active)}" %>
+        <%= link_to 'Événements', evenement_path, class: "nav-link #{yield(:evenement_active)}" %>
       </li>
       <li class="nav-item">
         <%= link_to 'Politics In Africa', politics_in_africa_path, class: "nav-link #{yield(:politics_in_africa_active)}" %>
@@ -118,7 +118,7 @@ Central online place where  -->
         <%= link_to 'Log In', author_session_path, class: "nav-link #{yield(:about_active)}" %>
       </li> -->
       <li class="nav-item">
-        <%= link_to 'Événements', travel_path, class: "nav-link #{yield(:travel_active)}" %>
+        <%= link_to 'Événements', evenement_path, class: "nav-link #{yield(:evenement_active)}" %>
       </li>
       <li class="nav-item">
         <% Category.all.each do |category| %>

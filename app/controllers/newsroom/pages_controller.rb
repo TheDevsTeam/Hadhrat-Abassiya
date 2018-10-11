@@ -11,7 +11,7 @@ module Newsroom
     def politics_in_africa
     end
 
-    def travel
+    def evenement
     end
     
   end
