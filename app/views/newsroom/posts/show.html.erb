@@ -15,6 +15,23 @@
       </div>
     <%end%>
     <p><%= @posts.display_day_published %></p>
+    <div class="card-data">
+      <ul>
+<!--         <%= link_to @posts, class: "btn btn-default" do %>
+        <i class="fab fa-instagram fa-lg" style="color: #E4405F;"></i>
+        <%end %>
+ -->
+<!--         <%= link_to @posts, class: "btn btn-default" do %>
+        <i class="fab fa-twitter fa-lg" style="color: #00ADFB;"></i>
+ -->        <!-- <li><a href="#"><i class="fab fa-twitter fa-lg" style="color: #00ADFB;"></i></a></li> -->
+        <!-- <%end %>            -->
+
+        <%= link_to @posts, class: "btn btn-default" do %>Partegez <%= @posts.title %> sur
+        <a href="whatsapp://send?text=<%= request.original_url %>"class="fab fa-whatsapp fa-2x" style="color: #00a923;"></a>
+        <!-- <li><a href="#"><i class="fab fa-twitter fa-lg" style="color: #00ADFB;"></i></a></li> -->
+        <%end %>
+      </ul>
+    </div>  
 
     <% if @posts.music.present? %>
     <div class="author-bio">
@@ -23,10 +40,10 @@
     <% else %>
     <!-- "There is no audio uploaded" -->
     <% end %>
-    <div class="author-bio">
+<!--     <div class="author-bio">
         <h4><%= @posts.author.name %></h4>
         <h6 class="bio"><%= @posts.author.bio %></h6>
-    </div>
+    </div> -->
     <div
       class="fb-like"
       data-share="true"
@@ -41,22 +58,3 @@
     </noscript>
   </div>
 </div>
-
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-
-  var disqus_config = function () {
-  this.page.url = '<%= request.original_url %>';  // Replace PAGE_URL with your page's canonical URL variable
-  this.page.identifier = '<%= @posts.slug %>'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-  };
-
-  (function() { // DON'T EDIT BELOW THIS LINE
-  var d = document, s = d.createElement('script');
-  s.src = 'https://hadhratabassiya-1.disqus.com/embed.js';
-  s.setAttribute('data-timestamp', +new Date());
-  (d.head || d.body).appendChild(s);
-  })();
-</script>
