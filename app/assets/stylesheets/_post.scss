@@ -1,4 +1,3 @@
-
 .css-slideshow{
   position: relative;
   max-width: 900px;
@@ -503,12 +502,10 @@ hr {
 }
 
 @media only screen and (max-width: 991px) {
-
-
   .digg_pagination {
-    margin-left: 220px;
-    margin-right: 200px;
-    padding-left: 200px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
   }
 
   .list-header {
@@ -634,12 +631,14 @@ footer p, footer h3 {
   .posts.index .card {
     height: 440px;
   }
+
 }
 // Medium. Above 48em (768px)
 @media screen and (min-width: 48em) {
   .posts.index .card {
     height: 420px;
   }
+
 }
 // Medium. Above 75em (1200px)
 @media screen and (min-width: 75em) {
@@ -693,8 +692,11 @@ h4 {
     width: auto
 }
 
-.nav-tabs {
-  /*display:none;*/
+.dropdown-menu {
+  top: 38px;
+  right: 0px;
+  left: 0px;
+  min-width: 6.5rem;
 }
 /*
 @media(min-width:768px) {
@@ -883,7 +885,7 @@ h4 {
   }
 }
 @media screen and (max-width: 768px) {
-  .col-sm-4 {
+  .col-sm-3 {
     text-align: center;
     margin: 25px 0;
   }
@@ -905,12 +907,12 @@ h4 {
   .slide {
     width: auto; 
     margin: 0 auto
-}
+  }
 
-.card {
-  width: auto;
-  margin: 0 auto;
-}
+  .card {
+   width: auto;
+    margin: 0 auto;
+  }
 
 }
 // -----------------------------END HOME PAGE CSS--------------------------------------

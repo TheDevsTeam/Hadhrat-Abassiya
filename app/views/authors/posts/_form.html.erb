@@ -97,8 +97,12 @@
       <% end %>
       <%= link_to 'Back', authors_posts_path %>
     </div>
+
     <div class="col-md-8" style="padding-top:85px;">
-      <textarea class="ckeditor" name="editor" rows="8" cols="80"></textarea>
+      <div class="field">
+        <%= form.label :body %>
+        <%= form.cktext_area :body%>
+      </div>
     </div>
   </div>
 

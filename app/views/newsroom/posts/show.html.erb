@@ -14,7 +14,13 @@
         <%= image_tag @posts.banner_image_url %>
       </div>
     <%end%>
-    <p><%= @posts.display_day_published %></p>
+    <p>
+      <%= @posts.display_day_published %>
+    </p>
+
+    <p>
+      <%= raw @posts.body %>
+    </p>
     <div class="card-data">
       <ul>
 <!--         <%= link_to @posts, class: "btn btn-default" do %>
@@ -26,7 +32,7 @@
  -->        <!-- <li><a href="#"><i class="fab fa-twitter fa-lg" style="color: #00ADFB;"></i></a></li> -->
         <!-- <%end %>            -->
 
-        <%= link_to @posts, class: "btn btn-default" do %>Partegez <%= @posts.title %> sur
+        <%= link_to @posts, class: "btn btn-default" do %>Partegez sur
         <a href="whatsapp://send?text=<%= request.original_url %>"class="fab fa-whatsapp fa-2x" style="color: #00a923;"></a>
         <!-- <li><a href="#"><i class="fab fa-twitter fa-lg" style="color: #00ADFB;"></i></a></li> -->
         <%end %>

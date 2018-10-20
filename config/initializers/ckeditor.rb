@@ -6,10 +6,16 @@ Ckeditor.setup do |config|
   # available as additional gems.
   require 'ckeditor/orm/active_record'
 
+
+  Ckeditor.setup do |config|
+  # //cdn.ckeditor.com/<version.number>/<distribution>/ckeditor.js
+  config.cdn_url = "//cdn.ckeditor.com/4.6.1/basic/ckeditor.js"
+end
+
   # Allowed image file types for upload.
   # Set to nil or [] (empty array) for all file types
   # By default: %w(jpg jpeg png gif tiff)
-  config.image_file_types = %w(jpg jpeg png gif tiff)
+  # config.image_file_types = %w(jpg jpeg png gif tiff)
 
   # Allowed flash file types for upload.
   # Set to nil or [] (empty array) for all file types
@@ -19,7 +25,7 @@ Ckeditor.setup do |config|
   # Allowed attachment file types for upload.
   # Set to nil or [] (empty array) for all file types
   # By default: %w(doc docx xls odt ods pdf rar zip tar tar.gz swf)
-  config.attachment_file_types = %w(doc docx xls odt ods pdf rar zip tar tar.gz swf)
+  # config.attachment_file_types = %w(doc docx xls odt ods pdf rar zip tar tar.gz swf)
 
   # Setup authorization to be run as a before filter
   # By default: there is no authorization.
@@ -43,8 +49,8 @@ Ckeditor.setup do |config|
 
   # To reduce the asset precompilation time, you can limit plugins and/or languages to those you need:
   # By default: nil (no limit)
-   config.assets_languages = ['en', 'fr']
-   config.assets_plugins = ['image', 'smiley']
+  # config.assets_languages = ['en', 'uk']
+  # config.assets_plugins = ['image', 'smiley']
 
   # CKEditor CDN
   # More info here http://cdn.ckeditor.com/

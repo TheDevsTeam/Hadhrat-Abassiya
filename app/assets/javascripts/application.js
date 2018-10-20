@@ -15,9 +15,9 @@
 //= require popper
 //= require bootstrap-sprockets
 //= require social-share-button
-//= require ckeditor/init
 //= require jquery_ujs
 //= require turbolinks
+//= require ckeditor/init
 //= require_tree .
 
 
