@@ -44,6 +44,6 @@ CKEDITOR.plugins.addExternal( 'youtube', '/plugins/youtube/', 'plugin.js' );
 // extraPlugins needs to be set too.
 CKEDITOR.replace( 'editor1', {
 	extraPlugins: 'youtube'
-	skin: 'moonolisa,/skins/moonolisa/'
+	skin: 'moonolisa/skins/moonolisa/'
 
 } );
