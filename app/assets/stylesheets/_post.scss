@@ -1,3 +1,17 @@
+.carousel-caption {
+  color: white;
+  xright: 58%;
+  text-align: center;
+  max-width: 300px;
+  left: 0;
+  top: 1px;
+  /*top: 50%; */
+  xtransform: translateY(-50%);
+  xbottom: initial;
+  /*background: rgba(0,0,0,0.5);*/
+  padding:10px;
+  height:100%;
+}
 .css-slideshow{
   position: relative;
   max-width: 900px;

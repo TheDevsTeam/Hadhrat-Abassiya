@@ -7,7 +7,7 @@
     <h1> <%= @posts.title %> </h1>
     <% if @posts.photo.present? %>
       <div class="card-topper">
-        <%= image_tag(@posts.photo, style: "width:auto") %>
+        <%= image_tag(@posts.photo, style: "width:350px;") %>
       </div>
       <% else %>
       <div class="card-topper">
