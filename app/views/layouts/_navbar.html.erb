@@ -111,9 +111,10 @@ We are helping business not just with a website but to help you organize your bu
 Creating a Website and then just say bye but to help you improve your business over all.
 Central online place where  -->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark navbar-right">
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark navbar-right" style="padding-bottom: 0px;padding-top: 0px;">
     <a class="navbar-brand" href="/">
-      UMMAH<span class="light">-ABASSIYA</span>
+      <img class="homepagelogo" src="/assets/homepagelogo2.jpg" alt="" />
+      <!-- UMMAH<span class="light">-ABASSIYA</span> -->
     </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -147,6 +148,13 @@ Central online place where  -->
       <li class="nav-item">
         <%= link_to 'Le Khalife', about_path, class: "nav-link #{yield(:about_active)}" %>
       </li>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin-top: 8px;">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="HD5V5M7PRE6SW">
+        <input type="image" src="https://www.paypalobjects.com/fr_XC/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+
       <!-- <li class="nav-item">
         <%= link_to 'Business', politics_in_africa_path, class: "nav-link #{yield(:politics_in_africa_active)}" %>
       </li> -->
