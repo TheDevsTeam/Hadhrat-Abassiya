@@ -1551,13 +1551,14 @@ h4 {
   }
 
   .card {
-   width: 380px;
+   width: 360px;
    margin: 0 auto;
 
   }
   .col-xs-4{
     margin-bottom: 25px;
-    right: 40px;
+    right: 0px;
+    left: -10px;
   }
 
   .bs-example {
@@ -1573,8 +1574,8 @@ h4 {
   .card {
    width: 340px;
    margin: 10 auto;
-
   }
+
   }
 
   .col-md-3 {
