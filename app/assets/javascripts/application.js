@@ -20,6 +20,7 @@
 //= require ckeditor/init
 //= require_tree .
 
+// $(document).on('turbolinks:load', ready); 
 
 document.addEventListener("turbolinks:load", function() {
 	tinymce.remove();

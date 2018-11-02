@@ -127,26 +127,26 @@ Central online place where  -->
         <% end %>
       </li> -->
       <li class="nav-item">
-        <%= link_to 'Accueil', welcome_home_path, class: "nav-link #{yield(:about_active)}" %>
+        <%= link_to 'Accueil', welcome_home_path, class: "nav-link #{yield(:about_active)}" , method: :get%>
       </li>
       <li class="nav-item" >
-        <%= link_to 'Recents', root_path, class: "nav-link #{yield(:news_active)}" %>
+        <%= link_to 'Recents', root_path, class: "nav-link #{yield(:news_active)}" , method: :get%>
       </li>
  <!--     <li class="nav-item">
         <%= link_to 'Log In', author_session_path, class: "nav-link #{yield(:about_active)}" %>
       </li> -->
       <li class="nav-item">
-        <%= link_to 'Événements', evenement_path, class: "nav-link #{yield(:evenement_active)}" %>
+        <%= link_to 'Événements', evenement_path, class: "nav-link #{yield(:evenement_active)}" , method: :get%>
       </li>
       <li class="nav-item">
         <% Category.all.each do |category| %>
         <li class="nav-item">
-          <%= link_to category.name, posts_path(category: category.name), class: "nav-link #{yield(:about_active)}" %>
+          <%= link_to category.name, posts_path(category: category.name), class: "nav-link #{yield(:about_active)}" , method: :get%>
         </li>
         <% end %>
       </li>
       <li class="nav-item">
-        <%= link_to 'Le Khalife', about_path, class: "nav-link #{yield(:about_active)}" %>
+        <%= link_to 'Le Khalife', about_path, class: "nav-link #{yield(:about_active)}" , method: :get%>
       </li>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin-top: 8px;">
         <input type="hidden" name="cmd" value="_s-xclick">
