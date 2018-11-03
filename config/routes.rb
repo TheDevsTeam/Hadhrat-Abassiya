@@ -24,7 +24,7 @@ Rails.application.routes.draw do
     get 'posts'     =>   'posts#index',    as: :posts
     get 'posts/:id' =>   'posts#show',     as: :post
     get 'evenement'   =>   '_pages#evenement', as: :evenement
-    get 'politics_in_africa'   =>   '_pages#politics_in_africa', as: :politics_in_africa
+    get 'media'   =>   '_pages#media', as: :media
   end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

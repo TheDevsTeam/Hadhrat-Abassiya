@@ -8,7 +8,7 @@ module Newsroom
     def contact
     end
 
-    def politics_in_africa
+    def media
     end
 
     def evenement

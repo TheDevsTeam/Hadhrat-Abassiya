@@ -276,7 +276,7 @@ Patient portal that stores research patient research data for them to view
 Clinical Trial Web Page Design
  -->
 
-<h1 class="headline">Reperes Historique</h1>
+<h1 class="headline">Repères Islamique</h1>
 
 <div class="container" style="margin-top:30px">
   <div class="row">
@@ -663,14 +663,14 @@ Le Coran est parfois appelé simplement al-kitâb (« le Livre »), adh-dhikr (�
 <iframe src="https://www.youtube.com/embed/I40EmF51UY4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="img-responsive" height="230px"></iframe>
   </li>
 
-<!--   <li class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-<iframe src="https://www.youtube.com/embed/I40EmF51UY4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="img-responsive" height="230px"></iframe>
+  <li class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+<iframe src="https://www.youtube.com/embed/eKluCOhkRyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="img-responsive" height="230px"></iframe>
   </li>
 
   <li class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-  <iframe src="https://www.youtube.com/embed/I40EmF51UY4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="img-responsive" height="230px"></iframe>
+  <iframe src="https://www.youtube.com/embed/cqykip9kPO4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="img-responsive" height="230px"></iframe>
   </li>  
-
+<!-- 
   <li class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
   <iframe src="https://www.youtube.com/embed/I40EmF51UY4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="img-responsive" height="230px"></iframe>
   </li>  
@@ -767,6 +767,12 @@ var TxtType = function(el, toRotate, period) {
         document.body.appendChild(css);
     };
 
+        $(function() {
+      $('img').bind('contextmenu', function() {
+        return false;
+      })
+    })
+
 
 </script>
 
@@ -788,6 +794,7 @@ var TxtType = function(el, toRotate, period) {
 </script>
 <% end %>
 
+<%= audio_tag "Wolofalpoursite.mp3", id: "sound", class: "audio-to-play", autoplay: true %>
 
 <!--   <%= audio_tag "http://quraan.us:9850/;", id: "sound", class: "audio-to-play", autoplay: true %>
 

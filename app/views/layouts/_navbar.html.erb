@@ -83,7 +83,7 @@
         <%= link_to 'Événements', evenement_path, class: "nav-link #{yield(:evenement_active)}" %>
       </li>
       <li class="nav-item">
-        <%= link_to 'Politics In Africa', politics_in_africa_path, class: "nav-link #{yield(:politics_in_africa_active)}" %>
+        <%= link_to 'Photos&Videos', media_path, class: "nav-link #{yield(:media_active)}" %>
       </li>
       <% if author_signed_in? %>
       <li class="nav-item">
@@ -136,8 +136,11 @@ Central online place where  -->
         <%= link_to 'Log In', author_session_path, class: "nav-link #{yield(:about_active)}" %>
       </li> -->
       <li class="nav-item">
-        <%= link_to 'Événements', evenement_path, class: "nav-link #{yield(:evenement_active)}" , method: :get%>
+        <%= link_to 'Événements & Gallery', evenement_path, class: "nav-link #{yield(:evenement_active)}" , method: :get%>
       </li>
+<!--       <li class="nav-item">
+        <%= link_to 'Photos&Videos', media_path, class: "nav-link #{yield(:media_active)}" %>
+      </li> -->
       <li class="nav-item">
         <% Category.all.each do |category| %>
         <li class="nav-item">
@@ -154,10 +157,6 @@ Central online place where  -->
         <input type="image" src="https://www.paypalobjects.com/fr_XC/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
       </form>
-
-      <!-- <li class="nav-item">
-        <%= link_to 'Business', politics_in_africa_path, class: "nav-link #{yield(:politics_in_africa_active)}" %>
-      </li> -->
       <!-- <li class="nav-item">
         <%= link_to 'Contact', contact_path, class: "nav-link #{yield(:contact_active)}" %>
       </li> -->
