@@ -58,7 +58,7 @@
 
 </script>
 
-<div id="shareBtn" class="btn btn-success clearfix">Share</div>
+<!-- <div id="shareBtn" class="btn btn-success clearfix">Share</div> -->
 
 <script>
 document.getElementById('shareBtn').onclick = function() {
@@ -69,13 +69,13 @@ document.getElementById('shareBtn').onclick = function() {
   }, function(response){});
 }
 
-// FB.ui({
-//   method: 'share_open_graph',
-//   action_type: 'og.likes',
-//   action_properties: JSON.stringify({
-//     object:'http://ummahabassiya.org/welcome/home',
-//   })
-// }, function(response){});
+FB.ui({
+  method: 'share_open_graph',
+  action_type: 'og.likes',
+  action_properties: JSON.stringify({
+    object:'http://ummahabassiya.org/welcome/home',
+  })
+}, function(response){});
 </script>
         <!-- <li><a href="#"><i class="fab fa-twitter fa-lg" style="color: #00ADFB;"></i></a></li> -->
         <%end %>
