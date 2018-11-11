@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
 
   layout 'author'
 
-  BRAND_NAME = 'GlobalTrendingNews'.freeze
+  BRAND_NAME = 'UMMAH ABASSIYA | Wakeur Cheikhana Abass Sall Attidjany(RTA)'.freeze
 
   def meta_title(title)
     [title, BRAND_NAME].reject(&:empty?).join(' | ')
